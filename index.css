@@ -128,6 +128,9 @@ footer button{
 	list-style-type: none;
 
 }
+.mailend{
+	display: none;
+}
 
 @media (max-width:600px){
 	nav{
@@ -168,7 +171,7 @@ font-size: 3vw;
 }
 footer{
 	flex-direction: column;
-	height: 15vw;
+	height: 18vw;
 
 }
 .left{
@@ -178,9 +181,11 @@ footer{
 	display: none;
 }
 .center{
+	margin-top: 10px;
 	font-size: 3vw;
 }
 .hright ul{
+	margin-bottom: 10px;
 	list-style-type: none;
 	column-gap: 0;
 	display: flex;
@@ -193,4 +198,21 @@ footer{
 }
 footer button{
 	display: none;
+}
+.mailend{
+	display: block;
+	text-align: center;
+	background-color:blue;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 2vw;
+	font-weight: bolder;
+	width: 12vw;
+    margin:auto;
+
+}
+.mailend a:hover{
+	color: currentColor;
+	font-size:2vw;
+
 }
