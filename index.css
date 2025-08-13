@@ -64,7 +64,10 @@ a:hover{
 .hleft{
 	font-size: 25px;
 }
-
+.hover-scale:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
 footer{
     display: flex;
 	justify-content: space-around;
@@ -151,3 +154,4 @@ footer .connect{
 	height: 8vw;
 	width: 8vw;
 }
+
