@@ -14,7 +14,12 @@ body {
   background-color: #09c372;
   
 }
-
-
+.card-img-top {
+  width: 100%;        
+  height: 220px;     
+  object-fit: cover;  
+  border-radius: 4px;
+}
   
+
 
